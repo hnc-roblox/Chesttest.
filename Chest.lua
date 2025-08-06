@@ -5,7 +5,7 @@ local v15 = v14:CreateWindow({
     TabWidth = 60,
     Theme = "Rose",
     Acrylic = false,
-    Size = UDim2.fromOffset(300, 200),
+    Size = UDim2.fromOffset(300, 160),
     MinimizeKey = Enum.KeyCode.End
 });
 local v16 = {
@@ -1991,7 +1991,7 @@ function BTPZ(v209)
     task.wait();
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v209;
 end
-TweenSpeed = 350;
+TweenSpeed = 500;
 function Tween(v211)
     local v212 = (v211.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude;
     local v213 = TweenSpeed;
